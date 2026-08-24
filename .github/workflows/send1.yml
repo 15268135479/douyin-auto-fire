@@ -7,7 +7,7 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: "50 09 * * *"
+    - cron: "00 07 * * *"
       timezone: "Asia/Shanghai"
 concurrency:
   group: douyin-daily-sender-other
